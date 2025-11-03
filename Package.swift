@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.6
 
 import PackageDescription
 
@@ -16,7 +16,7 @@ let package = Package(
             targets: ["DTCoreText"])
     ],
     dependencies: [
-        .package(url: "https://github.com/JWIMaster/DTFoundation.git"),
+        .package(url: "https://github.com/JWIMaster/DTFoundation.git", branch: "develop"),
     ],
     targets: [
         .target(
